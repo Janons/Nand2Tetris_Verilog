@@ -11,7 +11,7 @@ always @ (posedge clk or negedge rstn) begin
         q <= ~q; 
     
     else
-        q <= q;
+        q <= q; 
 end
 
 
